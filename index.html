@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Impermanence: A Digital Meditation</title>
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='50' height='50' fill='%23000'/%3E%3Crect x='50' y='0' width='50' height='50' fill='%23FFF'/%3E%3Crect x='0' y='50' width='50' height='50' fill='%23FFF'/%3E%3Crect x='50' y='50' width='50' height='50' fill='%23000'/%3E%3C/svg%3E">
+    <link rel="shortcut icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='50' height='50' fill='%23000'/%3E%3Crect x='50' y='0' width='50' height='50' fill='%23FFF'/%3E%3Crect x='0' y='50' width='50' height='50' fill='%23FFF'/%3E%3Crect x='50' y='50' width='50' height='50' fill='%23000'/%3E%3C/svg%3E">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lilex:ital,wght@0,100..700;1,100..700&family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <div id="startScreen">
+      <div class="floatingShape shape1"></div>
+      <div class="floatingShape shape2"></div>
+      <div class="floatingShape shape3"></div>
+      <div class="floatingShape shape4"></div>
+      <div class="floatingShape shape5"></div>
+      <div class="ripple"></div>
+      <div class="startContent">
+        <h1>Impermanence</h1>
+        <p class="subtitle">A Digital Meditation</p>
+      </div>
+      <div class="headphoneIcon">🎧</div>
+      <div class="arrowKeys">↑←↓→</div>
+      <p class="clickPrompt">click to begin</p>
+    </div>
+    <div id="introScreen" class="hidden">
+      <div class="introText">
+        <p>"Nothing is absolute.</p>
+        <p>Everything changes, everything moves,</p>
+        <p>everything revolves, everything flies and goes away."</p>
+        <p><br></p>
+        <p>— Frida Kahlo</p>
+      </div>
+    </div>
+    <div id="endScreen" class="hidden">
+      <div class="floatingShape shape1"></div>
+      <div class="floatingShape shape2"></div>
+      <div class="floatingShape shape3"></div>
+      <div class="floatingShape shape4"></div>
+      <div class="floatingShape shape5"></div>
+      <div class="ripple"></div>
+      <div class="startContent">
+        <h1>Thank You</h1>
+      </div>
+    </div>
+    <script src="sketch.js"></script>
+  </body>
+</html>
