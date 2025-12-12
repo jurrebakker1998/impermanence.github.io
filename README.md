@@ -1,4 +1,4 @@
-*Impermanence*
+**Impermanence**
 
 _“Nothing is absolute. Everything changes, everything moves, everything revolves, everything flies and goes away.”_ -Frida Kahlo
 
